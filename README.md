@@ -1,11 +1,11 @@
 # Creating the EKS cluster with the Terraform code.
 
-You will be creating the EKS cluster with a user profile (default) that should 
+I will be creating the EKS cluster with a user profile (default) that should 
 have adequate permissions to create the cluster. As part of the cluster creation
 the Terraform code also create an IAM user called <b>user1</b>. This user is the 
 user under which you will be administering the cluster with the kubectl tool.
 
-So, first check that your AWSCLI is configured with the default profile that 
+To do So, first check that your AWSCLI is configured with the default profile that 
 has the permissions to create the cluster. (~/.aws/credentials)
 
 ```
